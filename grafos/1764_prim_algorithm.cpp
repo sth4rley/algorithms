@@ -49,6 +49,7 @@ int main(void) { _
   int soma = 0;
 
   while(pq.size()){
+    // aqui o custo é o first, o second é o vértice
     // pega e remove o primeiro elemento da fila de prioridade
     pair<int, int> menor = pq.top(); pq.pop();
 

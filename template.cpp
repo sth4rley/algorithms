@@ -6,6 +6,7 @@ using namespace std;
 #define endl '\n'
 #define db(x) cout << #x << ": " << x << endl
 #define log(x) cout << x << endl
+#define mset(a,b) memset(a,b,sizeof(a));
 
 #define printv(vector)                              \
     {                                               \
@@ -19,7 +20,7 @@ using namespace std;
         cout << e.first << " " << e.second << endl; \
 
 
-typedef long long ll;
+typedef long long ll; // ou using ll = long long;
 
 const int INF = 0x3f3f3f3f; 
 const ll LINF = 0x3f3f3f3f3f3f3f3fll;
